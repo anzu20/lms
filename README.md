@@ -37,6 +37,7 @@ In the project directory, you need to run:
 Install the dependencies in the local node_modules folder
 
 ## Usage
+**Database example**: execute lms.sql\
 **Test user**: username - admin, password - admin
 
 In the project directory, you can run either
