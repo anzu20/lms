@@ -1,0 +1,115 @@
+.login-form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form__button {
+    background-color: #e68134;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.65;
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    transition: .2s background-color,.2s color;
+}
+
+.login-form__button:hover {
+    background-color: #D45F07;
+}
+
+.login-form__checkbox-group {
+    padding-left: 10px;
+    margin-bottom: 38px;
+}
+
+.login-form__checkbox-label {
+    padding-left: 10px;
+}
+
+.login-form__input {
+    padding: 15px 15px 15px 43px;
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid #b5b5b5;
+    box-sizing: border-box;
+    color: #b5b5b5;
+}
+
+.login-form__input:focus {
+    border: 1px solid #D45F07;
+    outline: none;
+    color: #D45F07;
+}
+
+.login-form__input-group {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.login-form__logo-user {
+    background-image: url(img/user.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 13px;
+    margin-left: 15px;
+}
+
+.login-form__logo-password {
+    background-image: url(img/password.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 13px;
+    margin-left: 15px;
+}
+
+.login-header {
+    width: 100%;
+    height: 124px;
+    display: block;
+    background-image: url(img/logo.svg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.login-header-text {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.login-header-subtext {
+    font-size: 12px;
+    margin-bottom: 26px;
+}
+
+.login-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+}
+
+@media (max-width: 767px) {
+    .login-wrapper {
+        padding: 0 24px;
+    }
+}

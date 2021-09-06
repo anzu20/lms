@@ -1,0 +1,37 @@
+.page-item.active > span {
+    border-bottom: 1px solid #e68134 !important;
+    color: #000000 !important;
+    background-color: unset !important;
+}
+
+.page-link {
+    border: unset !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    color: #000000 !important;
+}
+
+.users {
+    padding: 0 45px;
+}
+
+.users__header {
+    text-align: center;
+}
+
+.users__list-head-row {
+    background-color: #e68134;
+}
+
+.users__list-icon {
+    width: 10%;
+    text-align: end;
+}
+
+.users__list-pagination {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+}
